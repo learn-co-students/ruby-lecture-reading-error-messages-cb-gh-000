@@ -1,3 +1,3 @@
 1 + 1
 
-1 + "is the loneliest number"
+"great" + "is the loneliest number"
