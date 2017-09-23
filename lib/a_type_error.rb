@@ -1,3 +1,3 @@
 1 + 1
-
-1 + "is the loneliest number"
+x = 5
+1 + x
