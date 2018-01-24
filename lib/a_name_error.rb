@@ -1,3 +1,1 @@
-"hello world"
-
-hello_world
+String hello_world = "hello world"
