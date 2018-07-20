@@ -1,3 +1,4 @@
 1 + 1
 
-1 + "is the loneliest number"
+ a = "one" + " is the loneliest number"
+ puts a
