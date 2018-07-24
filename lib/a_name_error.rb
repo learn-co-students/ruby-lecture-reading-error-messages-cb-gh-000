@@ -1,3 +1,2 @@
-"hello world"
-
-hello_world
+myx = String.new("hello world")
+myy = String.new("hello_world")
