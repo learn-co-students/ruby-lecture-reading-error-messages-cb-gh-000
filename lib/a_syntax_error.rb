@@ -1,3 +1,3 @@
 x = 1
 
-x = 
+x = "Now x is this string!"
