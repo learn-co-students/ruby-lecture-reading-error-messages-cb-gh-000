@@ -19,7 +19,7 @@ describe "Not having any errors and being all green" do
   context 'TypeError' do
     it 'raises a TypeError for objects of the wrong type' do
       expect{
-        load './lib/a_type_error.rb'
+        load './lib/a_syntax_error.rb'
       }.to_not raise_error
     end
   end
