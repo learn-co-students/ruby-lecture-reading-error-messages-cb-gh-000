@@ -1,3 +1,3 @@
-"hello world"
-
-hello_world
+puts "oi"
+puts "wtf serious"
+12 / 2
