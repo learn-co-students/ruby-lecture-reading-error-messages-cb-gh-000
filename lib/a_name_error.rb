@@ -1,3 +1,3 @@
-"hello world"
+helloworld = puts "hello world"
 
-hello_world
+helloworld
