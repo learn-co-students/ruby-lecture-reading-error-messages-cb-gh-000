@@ -1,9 +1,9 @@
 describe "Not having any errors and being all green" do
 
   context 'NameError' do
-    it 'raises a NameError when encountering undefined barewords' do
+    it "can you give me that" do
       expect{
-        load './lib/a_name_error.rb'
+        load "./lib/a_name_error.rb"
       }.to_not raise_error
     end
   end
@@ -25,7 +25,7 @@ describe "Not having any errors and being all green" do
   end
 
   context 'ZeroDivisionError' do
-    it 'raises a ZeroDivisionError for dividing by zero' do
+    it "raises a ZeroDivisionError for dividing by zero" do
       expect{
         load './lib/a_division_by_zero_error.rb'
       }.to_not raise_error
