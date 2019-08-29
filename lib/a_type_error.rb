@@ -1,3 +1,2 @@
-1 + 1
-
-1 + "is the loneliest number"
+x = 1
+print x, " is the loneliest number"
