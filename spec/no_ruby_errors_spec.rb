@@ -1,4 +1,10 @@
-describe "Not having any errors and being all green" do
+  context 'ZeroDivisionError' do
+    it "Not having any errors and being all green" do
+      expect{
+        load './lib/a_division_by_zero_error.rb'
+      }.to_not raise_error
+    end
+  end
 
   context 'NameError' do
     it 'raises a NameError when encountering undefined barewords' do
@@ -31,4 +37,3 @@ describe "Not having any errors and being all green" do
       }.to_not raise_error
     end
   end
-end
