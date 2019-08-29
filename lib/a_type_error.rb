@@ -1,3 +1,2 @@
-1 + 1
-
-1 + "is the loneliest number"
+$is_the_loneliest_number = 1
+puts "1 + #{$is_the_loneliest_number}"
