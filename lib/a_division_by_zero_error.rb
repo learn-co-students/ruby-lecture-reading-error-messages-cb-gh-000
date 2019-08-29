@@ -1,3 +1,5 @@
-42 / 6
-
-42 / 0
+begin
+  42 / 0
+rescue
+  "it wont"
+end
