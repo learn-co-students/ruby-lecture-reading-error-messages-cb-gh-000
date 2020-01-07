@@ -4,7 +4,7 @@ describe "Ruby Errors" do
     it 'raises a NameError when encountering undefined barewords' do
       expect{
         load './lib/a_name_error.rb'
-      }.to raise_error
+      }.to raise_error(NameError)
     end
   end
 
@@ -12,7 +12,7 @@ describe "Ruby Errors" do
     it 'raises a SyntaxError for nonsensical code' do
       expect{
         load './lib/a_syntax_error.rb'
-      }.to raise_error
+      }.to raise_error(SyntaxError)
     end
   end
 
@@ -20,14 +20,15 @@ describe "Ruby Errors" do
     it 'raises a TypeError for objects of the wrong type' do
       expect{
         load './lib/a_type_error.rb'
-      }.to raise_error
+      }.to raise_error(TypeError)
     end
   end
 
   context 'ZeroDivisionError' do
     it 'raises a ZeroDivisionError for dividing by zero' do
       expect{
-      }.to raise_error
+        load './lib/a_division_by_zero_error.rb'
+      }.to raise_error(ZeroDivisionError)
     end
   end
 end
